@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Contact</title>
+
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- JAVASCRIPT AND JQUERY -->
+
+<script src="jquery-3.3.1.min.js"></script>
+
+<script src="bootstrap.js"></script>
+
+<!-- JAVASCRIPT and jQuery END -->
+<body>
+		<table cellspacing="0" cellpadding="0">
+	<tr>
+	 <td>
+		 <img id="contact" src="../IFW/Contact.png"/>
+		 <div id="content">
+			 <!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand"><font color="#C59A59" size="+2" >World of Shuki</font></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="home.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="about.html">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="projects.html">Projects</a>
+	      </li>
+			 <li class="nav-item">
+	        <a class="nav-link disabled" href="contact.html">contact</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	</nav>
+	<!--navbar-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #00aeef;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="card-title"><font color="#C59A59" size="+5" >Contact World of Shuki</font></a></h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"> <font size="+1" color="black"><strong> First Name</strong></font></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><font size="+1" color="Black"><strong> Last Name</strong> </font></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country"> <font size="+1" color="Black"><strong> Country</strong> </font></label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+			<option value="Israel">Israel</option>
+      <option value="usa">USA</option>
+
+    </select>
+
+    <label for="subject"><font size="+1" color="Black"><strong> Subject </strong></font></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+
+  </div>
+</div>
+		 </div>
+		</td>
+	</tr>
+	</table>
+<style>
+	body, html {margin:0; padding:0; height:100%; width:100%;}
+	#contact {position: fixed; left: 0; top:0; z-index: 1; height: 100%; width: 100%}
+	#content {position:absolute; left: 0; top:0; z-index: 70; height: 100%; width: 100%}
+	</style>
+
+
+
+
+</body>
+
+</html>
